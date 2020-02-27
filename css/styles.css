@@ -1,0 +1,55 @@
+body{
+    font-family: "Helvetica Neue",sans-serif;
+	font-size: 18px;
+}
+
+.dropdown-item:hover
+{
+    background: linear-gradient(45deg, darkslategray,black);
+    color:white !important;
+}
+.toggler-white{
+    background-color: white !important;
+    color:black !important;
+}
+.img-bor
+{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.sidebar{
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    z-index: 100;
+    padding:80px 0 0 30px;
+}
+.sidebar-sticky{
+    position: relative;
+    top:0;
+}
+.nav-link.active{
+    color: firebrick !important;;
+}
+.nav-item:hover , .disp-white:hover{
+    color: #a6a6a6 !important;
+}
+.nav-item, .disp-white{
+    color: white !important;
+}
+[role="main"] {
+    padding-top: 133px; /* Space for fixed navbar */
+}
+
+@media (min-width: 768px) {
+    [role="main"] {
+        padding-top: 60px; /* Space for fixed navbar */
+    }
+}
